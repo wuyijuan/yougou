@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/other.css" />
+	</head>
+	<body>
+		<!--头部-->
+		<div class="head">
+			<div class="top-nav">
+				<div class="nav wid">
+					<div class="fashion link_box">
+						<a href="index.html">时尚商城</a>
+					</div>
+					<div class="phone link_box">
+						<a href="##"><i class="mob"></i>手机优购<em></em></a>
+					</div>
+					<ul class="clear">
+						<li class="login"><a href="login.html" class="color">登录</a></li>
+						<li class="reg"><a href="register.html" class="color">注册</a></li>
+						<li class="yg a"><a href="##">我的优购<em></em></a></li>
+						<li><a href="##">我的订单</a></li>
+						<li class="gg a"><a href="##">公告<em></em></a></li>
+						<li class="gd a"><a href="##">更多<em></em></a></li>
+					</ul>
+				</div>
+			</div>
+			<!--logo-->
+			<div class="logo wid clear">
+				<div class="logo-img">
+					<img src="img/signin.png" />
+				</div>
+				<p>用户登录</p>
+			</div>
+		</div>
+		<!--表单-->
+		<div class="banner">
+			<a href="index.html" class="a"></a>
+			<div class="form reg">
+				<div class="login">
+					<p class="btn clear">
+						<a href="login.html" id="zhanghao">登录</a>
+						<a href="" id="phone" class="on">注册</a>
+					</p>
+					<div class="main main2">
+						<form action="php/register.php" method="post">
+							<div class="user phone">
+								<i>手机号</i>
+								<input type="text" name="tel" placeholder="请输入你的手机号" />
+								<div class="draw"></div>
+								<p><em></em><span>格式错误</span></p>
+							</div>
+							<div class="pwd code">
+								<i>验证码</i>
+								<input type="text" name="code" /><span class="ver">jkyh</span>
+								<p><em></em>验证码格式错误</p>
+							</div>
+							<div class="pwd tel-pwd">
+								<i>短信验证码</i>
+								<input type="text" name="username" /><span>获取验证码</span>
+								<p></p>
+							</div>
+							<div class="password">
+								<i>密码</i>
+								<input type="text" name="password" placeholder="字母、数字、符号均可，6-25个字符" />
+								<div class="draw"></div>
+								<p><em></em>密码应6-25位之间</p>
+								<ul class="safe">
+									<li class="di">低</li>
+									<li class="zhong">中</li>
+									<li class="gao">高</li>
+								</ul>
+							</div>
+							<div class="con-password">
+								<i>确认密码</i>
+								<input type="text" name="conpsd" />
+								<div class="draw"></div>
+								<p><em></em>两次密码不同</p>
+							</div>
+							<p class="check">
+								<input type="checkbox" checked="" />
+								我已阅读并同意<a href="##" class="color">《优购会员注册协议》</a>
+							</p>
+							<input type="submit" value="确认并注册" class="sub" name="submit" />
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--底部-->
+		<div class="log-fot">
+			Copyright © 2011-2014 Yougou Technology Co., Ltd.
+			<a href="##">粤ICP备09070608号-4</a>
+			 增值电信业务经营许可证： 
+			 <a href="##">粤 B2-20090203</a>
+		</div>
+		
+		<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js" ></script>
+		<script src="js/regiter.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

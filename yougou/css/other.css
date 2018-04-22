@@ -1,0 +1,828 @@
+body{
+	background-color: #f8f8f8;
+	color: #666;
+	position: relative;
+}
+.wid{
+	width: 990px;
+	margin: 0 auto;
+}
+.wid1{
+	width: 1190px;
+	margin: 0 auto;
+}
+.color{
+	color: rgb(230, 0, 18);
+}
+/*登录页面*/
+/*头部样式*/
+.top-nav{
+	width: 100%;height: 32px;
+	background: url(../img/sf-ico.jpg) repeat-x left -260px;
+}
+.top-nav .nav{
+	height: 100%;
+}
+.top-nav .nav .fashion{
+	width: 98px;
+    border-left: 1px solid #e9e9e9;
+}
+.top-nav .nav .phone{
+	width: 100px;
+	position: relative;
+}
+.top-nav .nav .link_box{
+	float: left;
+    display: inline;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-right: 1px solid #e9e9e9;
+    font-size: 14px;
+    line-height: 30px;
+}
+.top-nav .nav .phone .mob{
+	width: 8px;
+	height: 13px;
+	position: absolute;
+	top: 9px;
+	left: 10px;
+    background: url(../img/sf-ico.png) no-repeat scroll -152px -80px;
+}
+.top-nav .nav .phone em{
+	width: 11px;
+    height: 11px;
+    position: absolute;
+	top: 10px;
+    left: 82px; 
+    background: url(../img/sf-ico.png) no-repeat -187px -840px;
+}
+.top-nav .nav ul{
+	float: right;
+	/*line-height: 30px;*/
+}
+.top-nav .nav ul li{
+	float: left;
+	height: 14px;
+	line-height: 14px;
+	margin-top: 9px;
+	font-size: 12px;
+	padding: 0 5px;
+}
+.top-nav .nav ul .reg{
+	/*margin-left: 19px;*/
+	padding-right: 100px;
+	padding-left: 0;
+	border-right: 1px solid #666;
+}
+.top-nav .nav ul a{
+	padding: 0 10px;	
+}
+.top-nav .nav ul .yg a{
+	background: url(../img/sf-ico.png) no-repeat -128px -837px;
+}
+.top-nav .nav ul .gg a{
+	background: url(../img/sf-ico.png) no-repeat -152px -837px;
+}
+.top-nav .nav ul .gd a{
+	background: url(../img/sf-ico.png) no-repeat -152px -837px;
+}
+/*logo*/
+.head .logo{
+	padding: 13px 0;
+	border-bottom: 1px solid #dcdbde;
+}
+.head .logo-img{
+	height: 42px;
+	line-height: 42px;
+	float: left;
+}
+.head p{
+	height: 42px;
+	line-height: 42px;
+	float: left;
+}
+.head .logo img{
+	padding: 5px 30px 5px 0;
+	border-right: 1px solid #e6e6e6;
+	margin-right: 30px;
+}
+/*大图*/
+.banner{
+	width: 100%;
+	height: 553px;
+	position: relative;
+}
+.banner .a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: url(../img/ban.jpg) center;
+	position: absolute;
+}
+/*表单*/
+.banner .form{
+	width: 378px;
+	position: absolute;
+	left: 50%;
+	margin-left: 115px;
+	font-size: 12px;
+}
+.banner .login{
+	width: 378px;
+	height: 450px;
+	margin-top: 50px;
+	background: #fff;
+}
+.banner .login .btn{
+	padding: 24px 15px 0;
+}
+.banner .login .btn a{
+	display: block;
+	float: left;
+	width: 174px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #333;
+	background: #f3f3f3;
+}
+.banner .login .btn .on{
+	color: #fff;
+	background: #333;
+}
+.banner .login .main{
+	margin: 30px 0 0 25px;
+	position: absolute;
+}
+.banner .login form div{
+	width: 313px;
+	height: 38px;
+	border: 1px solid #e3e2e2;
+	position: relative;
+	margin-bottom: 28px;
+}
+.banner .login form div i{
+	display: inline-block;
+	width: 48px;
+	height: 36px;
+	background: url(../img/icon.png);
+}
+.banner .login form div input{
+	width: 235px;
+	height: 38px;
+	position: absolute;
+	right: 0;
+}
+.banner .login .user i{
+	background-position: -168px -27px;
+}
+.banner .login .pwd i{
+	background-position: -168px -61px;
+}
+.banner .login .main form div p{
+	width: 330px;
+	height: 28px;
+	line-height: 20px;
+	position: absolute;
+	left: 0;top: 40px;
+	color: #e60012;
+	visibility: hidden;
+}
+.banner .main form p em{
+	display: inline-block;
+	vertical-align: middle;
+	width: 15px;
+	height: 15px;
+	background: url(../img/icon.png) right -98px;
+	margin-right: 5px;
+}
+.banner .login .main .forget{
+	text-align: right;
+	text-decoration: underline;
+}
+.banner form .sub{
+	width: 315px;
+	height: 40px;
+	font-size: 16px;
+	background: #e1373a;
+	margin-top: 5px;
+	color: #fff;
+}
+.banner form .other{
+	margin-top: 10px;
+	text-align: center;
+}
+.banner form .ico{
+	margin-top: 5px;
+	text-align: center;
+}
+.banner form .ico a{
+	padding: 9px 18px;
+	margin: 0 5px;
+	line-height: 54px;
+	background: url(../img/icon.png);
+}
+.banner form .ico a:nth-of-type(1){
+	background-position: -37px -21px;
+}
+.banner form .ico a:nth-of-type(2){
+	background-position: -73px -21px;
+}
+.banner form .ico a:nth-of-type(3){
+	background-position: -110px -21px;
+}
+.banner form .ico a:nth-of-type(4){
+	background-position: -37px -57px;
+}
+.banner form .ico a:nth-of-type(5){
+	background-position: -73px -57px;
+}
+.banner .login .main2{
+	display: none;
+}
+.banner .login .main2 i{
+	line-height: 38px;
+	padding-left: 10px;
+	background: none;
+}
+.banner .login .main2 .pwd input{
+	width: 155px;
+	right: 80px;
+}
+.banner .login .main2 .pwd span{
+	display: block;
+	width: 73px;
+	height: 38px;
+    line-height: 38px;
+	background: #323232;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+/*底部*/
+.log-fot{
+	font-size: 12px;
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+	color: #aaa;
+	line-height: 20px;
+}
+.log-fot a{
+	color: #aaa;
+}
+
+
+/*注册页面*/
+.banner .reg .login{
+	height: 530px;
+	margin-top: 12px;
+}
+.banner .reg .btn a{
+	width: 123px;
+}
+.banner .reg .btn a:nth-of-type(1){
+	margin: 0 5px 0 53px;
+}
+.banner .reg .main2{
+	display: block;
+}
+.banner .reg form div i{
+	width: 60px;
+}
+.banner .reg .check{
+	text-align: center;
+}
+.banner .reg form .pwd .ver{
+	background: #fff;
+	color: blue;
+	font-size: 20px;
+}
+
+.banner .login form .draw{
+	width: 20px;
+	height: 20px;
+	background: url(../img/reg_sprite2.png) -314px 0;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	border: none;
+	display: none;
+}
+.banner .reg form .safe{
+	position: absolute;
+	right: 0;
+	top: 39px;
+	display: none;
+}
+.banner .reg form .safe li{
+	float: left;
+	width: 46px;
+	height: 15px;
+	line-height: 15px;
+	text-align: center;
+	background: #c5c4c4;
+	margin-right: 1px;
+}
+
+/*详情页*/
+.details{
+	font-size: 12px;
+}
+.details .loca{
+	height: 22px;
+	line-height: 22px;
+	margin: 3px 0;
+}
+.details .loca a{
+	color: #36C;
+}
+/*商品图片*/
+.details .deta{
+	position: relative;
+	width: 482px;
+	height: 605px;
+	float: left;
+}
+.details .deta .img{
+	width: 482px;
+	position: absolute;
+}
+.details .deta .ware{
+	width: 480px;
+	height: 480px;
+	position: relative;
+	border: 1px solid #ddd;
+}
+.details .deta .ware span{
+	display: block;
+	height: 19px;
+	width: 379px;
+	background: url(../img/sf-big.png) 0 0;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.details .deta .ware .mag{
+	width: 188px;
+	height: 176px;
+	position: absolute;
+	left: 0;top: 0;
+	background: #323232;
+	opacity: 0.1;
+	display: none;
+}
+.details .deta .bigware{
+	width: 470px;
+	height: 440px;
+	border: 1px solid #333;
+	position: absolute;
+	left: 500px;
+	top: 0;
+	z-index: 999;
+	overflow: hidden;
+	display: none;
+}
+.details .deta .bigware img{
+	position: absolute;
+	width: 1200px;
+	height: 1200px;
+	left: 0;
+	top: 0;
+}
+/*图片列表*/
+.details .deta .img-list{
+	width: 490px;
+	height: 78px;
+	margin-top: 10px;
+}
+.details .deta .img-list li{
+	float: left;
+	width: 60px;
+	height: 60px;
+	padding: 2px;
+	margin-right: 3px;
+	border: 1px solid #ddd;
+}
+.details .deta .id i{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	vertical-align: middle;
+	background: url(../img/new_dpico.png);
+}
+.details .deta .share i{
+	background-position: 0 -144px;
+}
+.details .deta .collect i{
+	background-position: 0 -167px;
+}
+.details .deta .share{
+	margin-right: 20px;
+}
+.details .deta .share,.collect{
+	float: right;
+}
+/*商品介绍*/
+.details .intr{
+	width: 490px;
+	margin-left: 18px;
+	position: relative;
+	float: left;
+}
+.details .intr h2{
+	font-size: 16px;
+	line-height: 28px;
+}
+.details .intr p{
+	height: 31px;
+	line-height: 31px;
+}
+.details .intr span{
+	font-size: 14px;
+}
+.details .intr .under{
+	font-size: 14px;
+	text-decoration: underline;
+}
+.details .intr .pic{
+	padding: 4px 0 20px;
+}
+.details .intr .score i{
+	display: inline-block;
+	width: 62px;
+	height: 13px;
+	background: url(../img/star.png) 0 -87px;
+	margin: 8px 8px 0 0;
+}
+.details .intr .score .seek{
+	padding-left: 22px;
+	color: #666;
+	background: url(../img/new_dpico.png) 0 -180px;
+	float: right;
+}
+.details .intr p a{
+	color: #36c;
+}
+.details .intr .pic span{
+	font-size: 32px;
+	font-weight: bold;
+}
+.details .intr del{
+	margin: 0 8px;
+}
+.details .intr .buy{
+	position: relative;
+	padding: 22px 0 0 10px;
+}
+.details .intr .buy p{
+	line-height: normal;
+}
+.details .intr .buy i{
+	display: block;
+	width: 12px;
+    height: 12px;
+    position: absolute;
+    right: 0;
+   	bottom: 0;
+    background: url(../img/new_dpico.png) -2px -122px;
+    display: none;
+}
+.details .intr .buy span{
+	float: left;
+	margin-right: 10px;
+	font-size: 12px;
+}
+.details .intr .buy .ys{
+	height: 47px;
+}
+.details .intr .buy .ys a{	
+	width: 40px;
+	height: 40px;
+}
+.details .intr .buy .a{
+	display: inline-block;
+	border: 1px solid #ddd;
+	position: relative;
+	background: #fff;
+}
+.details .intr .buy .cm{
+	margin: 10px 0;
+}
+.details .buy .size{
+	width: 285px;
+	margin-right: 0;
+}
+.details .buy .size a{
+	width: 24px;
+	height: 18px;
+	padding: 0 4px;
+	text-align: center;
+	color: #666;
+	margin-right: 10px;
+}
+.details .intr .buy .sl{
+	line-height: 22px;
+}
+.details .buy .tu{
+	font-weight: bold;
+}
+.buy .num em{
+	display: inline-block;
+	width: 30px;
+	height: 20px;
+	text-align: center;
+	border: 1px solid #ddd;
+}
+.details .intr .buy .sl .num a{
+	width: 11px;
+	height: 11px;
+	background: url(../img/jiajian.gif);
+}
+.details .intr .buy .num a:nth-of-type(1){
+	background-position: -11px 0;
+}
+.details .intr .buy .num a:nth-of-type(2){
+	background-position: -11px -11px;
+}
+.details .buy .btn{
+	font-size: 15px;
+	margin: 20px 0 10px;
+}
+.details .intr .buy .btn a{
+	height: 35px;
+	line-height: 35px;
+	font-weight: bold;
+	text-align: center;
+	border-color: #e60012;
+}
+.details .buy .gm{
+	width: 121px;
+	color: #e60012;
+	margin-right: 10px;
+}
+.details .buy .btn .in{
+	width: 147px;
+	background: #e60012;
+	color: #fff;
+}
+.details .buy .txt{
+	margin-top: 20px;
+}
+.details .buy .bot{
+	height: 48px;
+	line-height: 30px;
+}
+.details .buy .bot i{
+	position: static;
+	display: inline-block;
+	width: 20px;
+	height: 22px;
+	background: url(../img/new_dpico.png);
+	margin-left: 44px;
+	vertical-align: middle;
+	margin-top: -4px;
+	margin-right: 4px;
+}
+.details .buy .bot span:nth-of-type(2) i{
+	background-position: 0 -210px;
+}
+.details .buy .bot span:nth-of-type(3) i{
+	background-position: -22px -210px;
+}
+.details .buy .bot span:nth-of-type(4) i{
+	background-position: -44px -210px;
+}
+/*看了又看*/
+.details .look{
+	width: 180px;
+	float: right;
+	background: #fff;
+}
+.details .look .lk{
+	width: 180px;
+	text-align: center;
+}
+
+.details .look .look-list{
+	padding: 10px 23px 2px 22px;
+}
+.details .look-list ul{
+	height: 520px;
+}
+.details .look-list ul img{
+	width: 140px;
+	height: 140px;
+}
+.details .look-list a span:nth-of-type(1){
+	float: left;
+}
+.details .look-list a span:nth-of-type(2){
+	float: right;
+}
+/*回到顶部*/
+.back{
+	width: 44px;
+	height: 49px;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	border: 1px solid #ddd;
+	background: #fff;
+	display: none;
+}
+.back a{
+	display: block;
+	width: 20px;
+	height: 21px;
+	margin: 14px 12px;
+	background: url(../img/gotop-lnk.png) no-repeat center;
+}
+#aaa{
+	width: 1190px;
+	height: 2000px;
+	/*background: pink;*/
+}
+/*底部加入购物车*/
+.bot-buy{
+	width: 1043px;
+	margin: 0 auto;
+	background: #fffdf4;
+	padding: 11px 0 10px 19px;
+	border: 1px solid #ddd;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	font-size: 12px;
+	display: none;
+}
+.bot-buy .a{
+	display: inline-block;
+	border: 1px solid #ddd;
+	position: relative;
+	background: #fff;
+}
+.bot-buy .size{
+	width: 285px;
+	margin-right: 0;
+}
+.bot-buy .size a{
+	width: 24px;
+	height: 18px;
+	line-height: 18px;
+	padding: 0 4px;
+	text-align: center;
+	color: #666;
+	margin-right: 10px;
+}
+.bot-buy .sl{
+	line-height: 22px;
+	margin-left: 150px;
+}
+.bot-buy .tu{
+	font-weight: bold;
+}
+.bot-buy .sl .num a{
+	width: 11px;
+	height: 11px;
+	background: url(../img/jiajian.gif);
+}
+.bot-buy .num a:nth-of-type(1){
+	background-position: -11px 0;
+}
+.bot-buy .num a:nth-of-type(2){
+	background-position: -11px -11px;
+}
+.bot-buy .btn{
+	font-size: 15px;
+	margin-left: 20px;
+}
+.bot-buy .btn a{
+	height: 26px;
+	line-height: 26px;
+	font-weight: bold;
+	text-align: center;
+	border-color: #e60012;
+	border-radius: 5px;
+}
+.bot-buy .gm{
+	width: 88px;
+	color: #e60012;
+	margin-right: 10px;
+}
+.bot-buy .btn .in{
+	width: 100px;
+	background: #e60012;
+	color: #fff;
+}
+.bot-buy p{
+	float: left;
+	margin-top: 10px;
+}
+.bot-buy .cha{
+	display: block;
+	width: 14px;
+	height: 14px;
+	background: url(../img/bot_buy.gif) -67px -52px;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+}
+.goumai{
+	position: fixed;
+	left: 10px;
+	bottom: 10px;
+	width: 86px;
+	height: 23px;
+	background: url(../img/bot_buy.gif) left -168px;
+	display: none;
+}
+/*蒙板*/
+.mengban{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width:100%;
+	height: 100%;
+	background: #333333;
+	opacity: 0.2;
+	display: none;
+}
+/*弹窗*/
+.casement{
+	width: 390px;
+	height: 320px;
+	padding: 0 25px 10px;
+	position: fixed;
+	left: 0;right: 0;
+	top: 0;bottom: 0;
+	margin: auto;
+	z-index: 111;
+	background: #fff;
+	display: none;
+	font-size: 12px;
+}
+.casement .close{
+	font-size: 30px;
+	text-align: right;
+	cursor: pointer;
+}
+.casement .suc{
+	font-size: 18px;
+	font-weight: bold;
+}
+.casement em{
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.casement .suc em img{
+	width: 35px;
+	height: 35px;
+}
+.casement .jiesuan,.djs{
+	line-height: 50px;
+	padding-left: 44px;
+}
+.casement .jiesuan .suan{
+	display: inline-block;
+	width: 87px;
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	color: #fff;
+	background: #E60012;
+	border-radius: 5px;
+	margin-right: 10px;
+}
+.casement .jiesuan .jixu{
+	color: #36c;
+}
+.casement .djs{
+	line-height: 20px;
+}
+.casement hr{
+	border: 1px dashed #ccc;
+	margin-top: 10px;
+}
+.casement ul p{
+	line-height: 40px;
+}
+.casement li{
+	width: 92px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	color: #E60012;
+	float: left;
+	margin-right: 5px;
+}
+.casement li img{
+	width: 90px;
+	border: 1px solid #ddd;
+	margin-bottom: 10px;
+}
